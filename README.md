@@ -48,7 +48,7 @@ name = "stm32h753ZI-template"
 ```
 
 #### 2.2 `.vscode/launch.json`:
-`my-app` needs to be changed to your project name. Otherwise vscode debugger wont run and fail.
+`my-app` needs to be changed to your project name. Otherwise vscode debugger wont run and fails.
 ```json
 "programBinary": "${workspaceFolder}/target/thumbv7em-none-eabihf/debug/my-app",
 ```
