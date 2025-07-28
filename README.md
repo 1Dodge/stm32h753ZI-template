@@ -29,10 +29,7 @@ cargo install cargo-generate
 ### 1. Initialize the project template
 
 ```bash
-cargo generate \
-    --git https://github.com/1Dodge/stm32h753ZI-template \
-    --branch main \
-    --name my-app
+cargo generate --git https://github.com/1Dodge/stm32h753ZI-template --branch main --name my-app
 ```
 
 > *Note:* change `my-app` to your project name.
