@@ -27,9 +27,28 @@ cargo install cargo-generate
 ## Setup
 
 ### 1. Initialize the project template
-
+#### Linux / Mac
 ```bash
-cargo generate --git https://github.com/1Dodge/stm32h753ZI-template --branch main --name my-app
+cargo generate \
+  --git https://github.com/1Dodge/stm32h753ZI-template \
+  --branch main \
+  --name my-app
+```
+
+#### Windows CMD
+```bash
+cargo generate ^
+  --git https://github.com/1Dodge/stm32h753ZI-template ^
+  --branch main ^
+  --name my-app
+```
+
+#### Windows PowerShell
+```bash
+cargo generate `
+  --git https://github.com/1Dodge/stm32h753ZI-template `
+  --branch main `
+  --name my-app
 ```
 
 > *Note:* change `my-app` to your project name.
