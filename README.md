@@ -36,7 +36,7 @@ cargo generate \
 ```
 
 #### Windows CMD
-```bash
+```cmd
 cargo generate ^
   --git https://github.com/1Dodge/stm32h753ZI-template ^
   --branch main ^
@@ -44,7 +44,7 @@ cargo generate ^
 ```
 
 #### Windows PowerShell
-```bash
+```powershell
 cargo generate `
   --git https://github.com/1Dodge/stm32h753ZI-template `
   --branch main `
